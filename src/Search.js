@@ -16,6 +16,7 @@ class Search extends Component {
     submitQuery(evt){
       evt.preventDefault();
       console.log(this.state.query)
+      this.setState({query: ''})
     }
 
     render(){
